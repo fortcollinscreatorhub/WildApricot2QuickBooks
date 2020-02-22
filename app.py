@@ -1,4 +1,3 @@
-import etc/QBO_Credentials
 import WaApi
 import urllib.parse
 import csv
@@ -19,6 +18,8 @@ from quickbooks.objects.paymentmethod import PaymentMethod
 from quickbooks.objects.base import Ref
 from quickbooks.objects.detailline import SalesItemLine, SalesItemLineDetail
 from quickbooks.objects.trackingclass import Class
+
+from  QBO_Credentials import *
 
 app = Flask(__name__)
 
